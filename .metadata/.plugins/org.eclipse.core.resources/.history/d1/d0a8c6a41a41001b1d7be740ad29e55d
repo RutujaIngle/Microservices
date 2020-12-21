@@ -1,0 +1,5 @@
+package com.example.hystrixSchoolService.delegate;
+
+public class StudentServiceDelegate {
+
+}

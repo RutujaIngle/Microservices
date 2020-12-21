@@ -1,0 +1,15 @@
+package com.assesment;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.jms.annotation.EnableJms;
+
+@SpringBootApplication
+@EnableJms
+public class OrderSenderApplication {
+	//private static final String MESSAGE_QUEUE = "orders_queue";
+	public static void main(String[] args) {
+		SpringApplication.run(OrderSenderApplication.class, args);
+	}
+
+}

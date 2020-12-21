@@ -1,0 +1,35 @@
+package com.assesment;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.jms.annotation.EnableJms;
+import org.springframework.jms.core.JmsTemplate;
+
+import com.assesment.controller.OrderController;
+import com.assesment.model.Order;
+
+
+@SpringBootApplication
+@EnableJms
+public class OrderSenderApplication {
+	private static final String MESSAGE_QUEUE = "orders_queue";
+	
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = SpringApplication
+				.run(OrderSenderApplication.class, args);
+ 
+		// Get JMS template bean reference
+		JmsTemplate jmsTemplate = context.getBean(JmsTemplate.class);  //RestTemplate
+        System.out.println("Sending a order ");
+        
+    
+        OrderController orderController = new OrderController();
+        Order order;
+        order = orderController.getOrder();
+		jmsTemplate.convertAndSend(MESSAGE_QUEUE, order);
+	}
+
+	}
+	
+

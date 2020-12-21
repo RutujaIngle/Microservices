@@ -1,0 +1,27 @@
+package com.assesment.service;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.annotation.EnableJms;
+import com.assesment.Repository.OrderRepository;
+import com.assesment.model.Order;
+
+
+
+@EnableJms
+public class OrderService {
+	
+	@Autowired
+	OrderRepository orderRepository;
+
+	public void saveOrder(Order order) {
+			// TODO Auto-generated method stub
+		orderRepository.save(order);
+				
+		}
+		
+	public Order getOrderById(int id) {
+		// TODO Auto-generated method stub
+		return orderRepository.findById(id).get();  
+	}	
+	}
+
+

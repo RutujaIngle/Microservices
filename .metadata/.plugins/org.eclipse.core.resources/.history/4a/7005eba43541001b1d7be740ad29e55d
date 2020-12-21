@@ -1,0 +1,5 @@
+package com.assesment.config;
+
+public class JMSConfiguration {
+
+}

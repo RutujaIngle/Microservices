@@ -1,0 +1,10 @@
+package com.assesment.service;
+
+public class OrderService {
+
+	public int createOrder() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

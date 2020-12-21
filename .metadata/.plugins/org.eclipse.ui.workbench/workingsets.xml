@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1607595765970_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=HelloWordDemo/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=HelloWordDemo/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=HelloWordDemo/target\/generated-sources\/annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1607595766000_1" label="Java Test Sources" name="Java Test Sources">
+<item elementID="=HelloWordDemo/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=HelloWordDemo/target\/generated-test-sources\/test-annotations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1608113311302_5" label="gs-service-registration-and-discovery" name="gs-service-registration-and-discovery">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/gs-service-registration-and-discovery-complete" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/service-registration-and-discovery-client" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/service-registration-and-discovery-service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1608548420426_6" label="zipkin" name="zipkin">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/zipkin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/zipkin-service-1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/zipkin-service-2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/zipkin-service-3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/zipkin-service-4" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1607595770537_2" label="Window Working Set" name="Aggregate for window 1607595770536"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1607687510016_3" label="Window Working Set" name="Aggregate for window 1607687510016"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1607936848190_4" label="Window Working Set" name="Aggregate for window 1607936848190"/>
+</workingSetManager>

@@ -1,0 +1,5 @@
+package com.ribbon;
+
+public class MyRestController {
+
+}

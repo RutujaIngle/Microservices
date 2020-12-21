@@ -1,0 +1,36 @@
+package com.example.demo.service;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.HelloWordDemoApplication;
+import com.example.demo.models.Address;
+import com.example.demo.models.Order;
+
+@Service
+public class OrderService {
+	final public Logger logger = LoggerFactory.getLogger(HelloWordDemoApplication.class);
+	public int create() {
+		return 1;
+		
+	}
+	public Order getOrder() {
+		Address address1 = new Address();
+		Address address2 = new Address();
+		address1.setStreetName("lane");
+		address1.setPin(1223);
+		address2.setStreetName("lane2");
+		address2.setPin(1233);
+		
+		Order order = new Order();
+		order.setId(345);
+		order.setItem("mobile");
+		order.setPrice(10000);
+		order.setAddress1(address1);
+		order.setAddress2(address2);
+		
+		return order;
+	}
+
+}

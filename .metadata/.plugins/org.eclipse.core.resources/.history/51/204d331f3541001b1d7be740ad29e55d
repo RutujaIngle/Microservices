@@ -1,0 +1,28 @@
+package com.assesment.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.assesment.model.Order;
+import com.assesment.service.OrderService;
+
+
+public class OrderController {
+	@Autowired
+	OrderService orderService;
+	int ID ;
+	@PostMapping("/order")
+	public int saveOrder(@RequestBody Order order) {
+		
+		orderService.saveOrder(order); 
+        ID = order.getId();
+		return order.getId();
+		
+	}
+	
+	public Order getOrder()
+	{
+		return orderService.getOrderById(ID);
+	}
+}

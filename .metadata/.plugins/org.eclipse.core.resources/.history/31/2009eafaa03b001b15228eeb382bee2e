@@ -1,0 +1,20 @@
+package com.example.demo.service;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.HelloWordDemoApplication;
+
+@Service
+public class OrderService {
+	final public Logger logger = LoggerFactory.getLogger(HelloWordDemoApplication.class);
+	public int create() {
+		return 1;
+		
+	}
+	public int getOrder() {
+		return 2;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MessageProducerApplication.java&apos; to &apos;order-sender/src/main/java/com.assesment&apos;&#x0D;&#x0A;- Original project: &apos;sender&apos;&#x0D;&#x0A;- Destination element: &apos;order-sender/src/main/java/com.assesment&apos;&#x0D;&#x0A;- Original element: &apos;com.ram.MessageProducerApplication.java&apos;" description="Copy compilation unit" destination="=order-sender/src\/main\/java&lt;com.assesment" element1="/src\/main\/java&lt;com.ram{MessageProducerApplication.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1608295310658" units="1" version="1.0"/>
+</session>

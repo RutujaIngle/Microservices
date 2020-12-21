@@ -1,0 +1,46 @@
+package com.example.demo.models;
+
+public class Order {
+
+	long id;
+	String item;
+	float price;
+	Address address1;
+	Address address2;
+	public Address getAddress1() {
+		return address1;
+	}
+	public void setAddress1(Address address1) {
+		this.address1 = address1;
+	}
+	public Address getAddress2() {
+		return address2;
+	}
+	public void setAddress2(Address address2) {
+		this.address2 = address2;
+	}
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getItem() {
+		return item;
+	}
+	
+	public void setItem(String item) {
+		this.item = item;
+	}
+	public float getPrice() {
+		return price;
+	}
+	public void setPrice(float price) {
+		this.price = price;
+	}
+	
+		
+	}
+	
+	
+

@@ -1,0 +1,5 @@
+package com.example.ribbonClient;
+
+public class MyClientSideController {
+
+}

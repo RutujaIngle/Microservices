@@ -1,0 +1,24 @@
+package com.client;
+
+import java.awt.print.Book;
+
+import javax.xml.ws.Response;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;
+
+//@SpringBootApplication
+public class ClientApplication {
+
+	public static void main(String[] args) {
+		//SpringApplication.run(ClientApplication.class, args);
+		RestTemplate restTemplate = new RestTemplate();
+	    ResponseEntity<Books> books = restTemplate.getForEntity("http://localhost:8080/book/125", Books.class);
+	    System.out.println(books.getBody().getAuthor());
+	    System.out.println(books.getBody().getBookid());
+	}
+	
+
+}

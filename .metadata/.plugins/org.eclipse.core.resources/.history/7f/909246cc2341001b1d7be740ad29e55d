@@ -1,0 +1,8 @@
+package com.assesment.model;
+
+public class Order {
+
+	String item;
+	long price;
+	
+}

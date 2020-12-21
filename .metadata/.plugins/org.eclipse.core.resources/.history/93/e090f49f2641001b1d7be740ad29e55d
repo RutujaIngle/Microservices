@@ -1,0 +1,20 @@
+package com.assesment.model;
+
+public class Address {
+     String state;
+     long pin;
+	
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
+	}
+	public long getPin() {
+		return pin;
+	}
+	public void setPin(long pin) {
+		this.pin = pin;
+	}
+     
+}

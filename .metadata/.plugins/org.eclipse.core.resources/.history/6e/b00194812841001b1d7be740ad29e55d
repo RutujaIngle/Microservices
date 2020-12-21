@@ -1,0 +1,27 @@
+package com.assesment.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+@Entity
+@Table
+public class Address {
+	 @Column
+     String state;
+	 @Column
+     long pin;
+	
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
+	}
+	public long getPin() {
+		return pin;
+	}
+	public void setPin(long pin) {
+		this.pin = pin;
+	}
+     
+}
