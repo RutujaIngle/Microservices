@@ -24,11 +24,10 @@ public class OrderController {
 	@PostMapping("/order")
     public int saveOrder(@RequestBody ProductOrder order) {
 		
-		//orderService.saveOrder(order); 
+		orderService.saveOrder(ProductOrder); 
 		JmsTemplate jmsTemplate = context.getBean(JmsTemplate.class);  //RestTemplate
 		jmsTemplate.convertAndSend(MESSAGE_QUEUE, order);
-		System.out.println("order sent");
-		orderService.saveOrder(order);
+		 
 		return order.getId();
 		
 			}
